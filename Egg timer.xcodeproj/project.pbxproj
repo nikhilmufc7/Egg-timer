@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24CF585D1EDB2F91004953A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF585C1EDB2F91004953A7 /* AppDelegate.swift */; };
+		24CF585F1EDB2F91004953A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF585E1EDB2F91004953A7 /* ViewController.swift */; };
+		24CF58621EDB2F91004953A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CF58601EDB2F91004953A7 /* Main.storyboard */; };
+		24CF58641EDB2F91004953A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24CF58631EDB2F91004953A7 /* Assets.xcassets */; };
+		24CF58671EDB2F91004953A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24CF58651EDB2F91004953A7 /* LaunchScreen.storyboard */; };
+		24CF58721EDB2F91004953A7 /* Egg_timerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF58711EDB2F91004953A7 /* Egg_timerTests.swift */; };
+		24CF587D1EDB2F91004953A7 /* Egg_timerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CF587C1EDB2F91004953A7 /* Egg_timerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24CF586E1EDB2F91004953A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CF58511EDB2F91004953A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CF58581EDB2F91004953A7;
+			remoteInfo = "Egg timer";
+		};
+		24CF58791EDB2F91004953A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24CF58511EDB2F91004953A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CF58581EDB2F91004953A7;
+			remoteInfo = "Egg timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24CF58591EDB2F91004953A7 /* Egg timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Egg timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CF585C1EDB2F91004953A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24CF585E1EDB2F91004953A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24CF58611EDB2F91004953A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24CF58631EDB2F91004953A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24CF58661EDB2F91004953A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24CF58681EDB2F91004953A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CF586D1EDB2F91004953A7 /* Egg timerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg timerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CF58711EDB2F91004953A7 /* Egg_timerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_timerTests.swift; sourceTree = "<group>"; };
+		24CF58731EDB2F91004953A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CF58781EDB2F91004953A7 /* Egg timerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Egg timerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24CF587C1EDB2F91004953A7 /* Egg_timerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Egg_timerUITests.swift; sourceTree = "<group>"; };
+		24CF587E1EDB2F91004953A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24CF58561EDB2F91004953A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CF586A1EDB2F91004953A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CF58751EDB2F91004953A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24CF58501EDB2F91004953A7 = {
+			isa = PBXGroup;
+			children = (
+				24CF585B1EDB2F91004953A7 /* Egg timer */,
+				24CF58701EDB2F91004953A7 /* Egg timerTests */,
+				24CF587B1EDB2F91004953A7 /* Egg timerUITests */,
+				24CF585A1EDB2F91004953A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24CF585A1EDB2F91004953A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24CF58591EDB2F91004953A7 /* Egg timer.app */,
+				24CF586D1EDB2F91004953A7 /* Egg timerTests.xctest */,
+				24CF58781EDB2F91004953A7 /* Egg timerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24CF585B1EDB2F91004953A7 /* Egg timer */ = {
+			isa = PBXGroup;
+			children = (
+				24CF585C1EDB2F91004953A7 /* AppDelegate.swift */,
+				24CF585E1EDB2F91004953A7 /* ViewController.swift */,
+				24CF58601EDB2F91004953A7 /* Main.storyboard */,
+				24CF58631EDB2F91004953A7 /* Assets.xcassets */,
+				24CF58651EDB2F91004953A7 /* LaunchScreen.storyboard */,
+				24CF58681EDB2F91004953A7 /* Info.plist */,
+			);
+			path = "Egg timer";
+			sourceTree = "<group>";
+		};
+		24CF58701EDB2F91004953A7 /* Egg timerTests */ = {
+			isa = PBXGroup;
+			children = (
+				24CF58711EDB2F91004953A7 /* Egg_timerTests.swift */,
+				24CF58731EDB2F91004953A7 /* Info.plist */,
+			);
+			path = "Egg timerTests";
+			sourceTree = "<group>";
+		};
+		24CF587B1EDB2F91004953A7 /* Egg timerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24CF587C1EDB2F91004953A7 /* Egg_timerUITests.swift */,
+				24CF587E1EDB2F91004953A7 /* Info.plist */,
+			);
+			path = "Egg timerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24CF58581EDB2F91004953A7 /* Egg timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CF58811EDB2F91004953A7 /* Build configuration list for PBXNativeTarget "Egg timer" */;
+			buildPhases = (
+				24CF58551EDB2F91004953A7 /* Sources */,
+				24CF58561EDB2F91004953A7 /* Frameworks */,
+				24CF58571EDB2F91004953A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Egg timer";
+			productName = "Egg timer";
+			productReference = 24CF58591EDB2F91004953A7 /* Egg timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24CF586C1EDB2F91004953A7 /* Egg timerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CF58841EDB2F91004953A7 /* Build configuration list for PBXNativeTarget "Egg timerTests" */;
+			buildPhases = (
+				24CF58691EDB2F91004953A7 /* Sources */,
+				24CF586A1EDB2F91004953A7 /* Frameworks */,
+				24CF586B1EDB2F91004953A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CF586F1EDB2F91004953A7 /* PBXTargetDependency */,
+			);
+			name = "Egg timerTests";
+			productName = "Egg timerTests";
+			productReference = 24CF586D1EDB2F91004953A7 /* Egg timerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24CF58771EDB2F91004953A7 /* Egg timerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24CF58871EDB2F91004953A7 /* Build configuration list for PBXNativeTarget "Egg timerUITests" */;
+			buildPhases = (
+				24CF58741EDB2F91004953A7 /* Sources */,
+				24CF58751EDB2F91004953A7 /* Frameworks */,
+				24CF58761EDB2F91004953A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24CF587A1EDB2F91004953A7 /* PBXTargetDependency */,
+			);
+			name = "Egg timerUITests";
+			productName = "Egg timerUITests";
+			productReference = 24CF58781EDB2F91004953A7 /* Egg timerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24CF58511EDB2F91004953A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nikhil Singh";
+				TargetAttributes = {
+					24CF58581EDB2F91004953A7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					24CF586C1EDB2F91004953A7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24CF58581EDB2F91004953A7;
+					};
+					24CF58771EDB2F91004953A7 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 24CF58581EDB2F91004953A7;
+					};
+				};
+			};
+			buildConfigurationList = 24CF58541EDB2F91004953A7 /* Build configuration list for PBXProject "Egg timer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24CF58501EDB2F91004953A7;
+			productRefGroup = 24CF585A1EDB2F91004953A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24CF58581EDB2F91004953A7 /* Egg timer */,
+				24CF586C1EDB2F91004953A7 /* Egg timerTests */,
+				24CF58771EDB2F91004953A7 /* Egg timerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24CF58571EDB2F91004953A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CF58671EDB2F91004953A7 /* LaunchScreen.storyboard in Resources */,
+				24CF58641EDB2F91004953A7 /* Assets.xcassets in Resources */,
+				24CF58621EDB2F91004953A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CF586B1EDB2F91004953A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CF58761EDB2F91004953A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24CF58551EDB2F91004953A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CF585F1EDB2F91004953A7 /* ViewController.swift in Sources */,
+				24CF585D1EDB2F91004953A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CF58691EDB2F91004953A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CF58721EDB2F91004953A7 /* Egg_timerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24CF58741EDB2F91004953A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CF587D1EDB2F91004953A7 /* Egg_timerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24CF586F1EDB2F91004953A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CF58581EDB2F91004953A7 /* Egg timer */;
+			targetProxy = 24CF586E1EDB2F91004953A7 /* PBXContainerItemProxy */;
+		};
+		24CF587A1EDB2F91004953A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24CF58581EDB2F91004953A7 /* Egg timer */;
+			targetProxy = 24CF58791EDB2F91004953A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24CF58601EDB2F91004953A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CF58611EDB2F91004953A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24CF58651EDB2F91004953A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24CF58661EDB2F91004953A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24CF587F1EDB2F91004953A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24CF58801EDB2F91004953A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24CF58821EDB2F91004953A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Egg timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nik.Egg-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		24CF58831EDB2F91004953A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Egg timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nik.Egg-timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		24CF58851EDB2F91004953A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Egg timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nik.Egg-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg timer.app/Egg timer";
+			};
+			name = Debug;
+		};
+		24CF58861EDB2F91004953A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Egg timerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nik.Egg-timerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Egg timer.app/Egg timer";
+			};
+			name = Release;
+		};
+		24CF58881EDB2F91004953A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Egg timerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nik.Egg-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Egg timer";
+			};
+			name = Debug;
+		};
+		24CF58891EDB2F91004953A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Egg timerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Nik.Egg-timerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Egg timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24CF58541EDB2F91004953A7 /* Build configuration list for PBXProject "Egg timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CF587F1EDB2F91004953A7 /* Debug */,
+				24CF58801EDB2F91004953A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CF58811EDB2F91004953A7 /* Build configuration list for PBXNativeTarget "Egg timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CF58821EDB2F91004953A7 /* Debug */,
+				24CF58831EDB2F91004953A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24CF58841EDB2F91004953A7 /* Build configuration list for PBXNativeTarget "Egg timerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CF58851EDB2F91004953A7 /* Debug */,
+				24CF58861EDB2F91004953A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		24CF58871EDB2F91004953A7 /* Build configuration list for PBXNativeTarget "Egg timerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CF58881EDB2F91004953A7 /* Debug */,
+				24CF58891EDB2F91004953A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24CF58511EDB2F91004953A7 /* Project object */;
+}
